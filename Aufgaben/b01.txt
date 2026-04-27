@@ -32,6 +32,3 @@ Git-Spiel
 Commit-Meldungen
 Cool das man in der Commit-Message direkt sieht was passiert ist im zweiten.
 Erste ist zu stumpf
-
-=======
->>>>>>> c55f0ed8b6cc0931573525afe1eea3531f32bde2
