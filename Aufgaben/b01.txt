@@ -1,0 +1,29 @@
+b01
+
+Aufgabe Git
+Git Status erklären
+
+Die Ausgabe beinhaltet die Meldung das die vorgenommenen Änderungen der Dateien CONTRIBUTING.md und homework/bo3.md noch nicht im Stage sind, das heißt sie müssen mit add hinzugefügt werden oder mit restore zurückgesetzt werden.
+foo.java ist noch gar nicht vorhanden, heißt es muss mit add foo.java hinzugefügt werden wenn man committen möchte.
+
+Um nur foo.java zu committen muss folgendes eingegeben werden:
+1. git add foo.java
+2. git commit -m "add foo.java to project"
+
+Git-Spiel
+1.
+- An tag 01 wagte sich der Held namens Markus in einen gefährlichen Dungeon, wo Monster lauern aber Markus glaubt sie zu besiegen und das Amulet zu finden.
+- Der Held erreicht 4 exp Punkte an tag 01.3
+- Der Held hat zum ersten mal 10 Hunger an tag 02
+- Der Held hatte insgesamt 2 Heiltränke
+- Der Held hat einen Heiltrank gekauft für 5 Gold und ein Brot auch für 5 Gold.
+- Markus macht sich erfrischt und gestärkt auf den weg zur letzten Etappe seiner Quest,10 Gold verschiwnden aus seinem Inventar und das leben geht von 5 auf 10. Der Hunger von 10 auf 0.
+- Brot
+
+2. geändert, add stats.md, commit --amend --no-edit
+
+3. geändert, add . , commit -m "..."
+
+4. geändert, add . commit -m "..."
+
+5. geändert und hinzugefügt, git add. git commit -m "..."
