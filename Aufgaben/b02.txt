@@ -1,0 +1,80 @@
+b02
+
+Git-Spiel
+
+1.
+*   c9af879 (HEAD -> master) Merge branch 'end'
+|\
+| * 6405bd9 (origin/end, end) ende
+| * 50275b0 tag 20
+| * ef5cd63 tag 10
+* | b56d151 shopkeeper explain
+|/
+* 76973c1 (origin/master, origin/HEAD) tag 04.5
+* 8f88b19 tag 04.4
+
+
+Ohne Probleme hinzugefügt weil eine andere Datei
+
+2.
+*   f7345b1 (HEAD -> master) Merge branch 'end'
+|\
+| * 6405bd9 (origin/end, end) ende
+| * 50275b0 tag 20
+| * ef5cd63 tag 10
+* | e24620b Schwerter in Rucksack
+|/
+* 76973c1 (origin/master, origin/HEAD) tag 04.5
+* 8f88b19 tag 04.4
+
+Ohne Probleme hinzugefügt weil an einer anderen Stelle geändert wurde
+
+3.
+Identisch:
+Already up to date
+
+andere Stelle:
+Auto-merging rucksack.md
+CONFLICT (content): Merge conflict in rucksack.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+
+4.
+checkout end
+rebase master
+Vor merge:
+* 33b19d2 (HEAD -> end) ende
+* 2107d71 tag 20
+* ff69086 tag 10
+* b325fd0 (master) Schuh in Inventar
+| * 6405bd9 (origin/end) ende
+| * 50275b0 tag 20
+| * ef5cd63 tag 10
+|/
+* 76973c1 (origin/master, origin/HEAD) tag 04.5
+* 8f88b19 tag 04.4
+
+Nach merge:
+* 33b19d2 (HEAD -> master, end) ende
+* 2107d71 tag 20
+* ff69086 tag 10
+* b325fd0 Schuh in Inventar
+| * 6405bd9 (origin/end) ende
+| * 50275b0 tag 20
+| * ef5cd63 tag 10
+|/
+* 76973c1 (origin/master, origin/HEAD) tag 04.5
+* 8f88b19 tag 04.4
+
+Katzen-Cafe
+
+Warum relevant?
+Die Tests beweisen, dass die Suche und das Zählen im Café wirklich fehlerfrei funktionieren. Sie geben Sicherheit, dass das Programm auch dann noch läuft, wenn man später etwas am Code ändert.
+
+Warum unterschiedlich?
+Die Tests probieren verschiedene Situationen aus, wie normale Abläufe, falsche Eingaben oder knappe Grenzwerte. So wird nicht nur der Standardfall geprüft, sondern auch, ob das Programm bei Fehlern oder doppelten Gewichten stabil bleibt.
+
+Probleme bei ci
+Lokal hat alles funktioniert
+In git nicht habe Zugriffsrechte und ip geändert
+ip von IPv6 auf IPv4
